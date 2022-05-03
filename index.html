@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <h2>Generate a <br /><span>random password</span></h2>
+        <p>Never use an insecure password again.</p>
+        <p class="setPassword">
+            <span>Set Password Length</span>
+            <input type="number" id="passwordLength" />
+            <button id="btnPassword" onclick="generatePassword()">
+          Generate passwords
+        </button>
+        </p>
+        <p id="line"></p>
+        <input type="text" id="react1" class="react" onclick="copyPassword(this.id)" />
+        <input type="text" id="react2" class="react" onclick="copyPassword(this.id)" />
+        <input type="text" id="react3" class="react" onclick="copyPassword(this.id)" />
+        <input type="text" id="react4" class="react" onclick="copyPassword(this.id)" />
+    </div>
+    <script src="script.js "></script>
+</body>
+
+</html>
